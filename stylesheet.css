@@ -16,7 +16,7 @@ body {
 
 header {
   display: flex;
-  align-items: center;
+  align-items: left;
   justify-content: center;
   gap: 10px;
   color: #CAC589;
