@@ -62,7 +62,7 @@ header > i {
 form {
   display: flex;
   flex-direction: column;
-  width: 90%;
+  width: 100%;
   color: #CAC589;
   margin: 10px 0;
 }
@@ -104,7 +104,10 @@ form > a:hover {
   text-decoration: underline;
 }
 
-#destinationField{
+form > #destinationField{
   width: 50%;
+}
+
+form > #returnBox{
   justify-content: flex-start;
 }
