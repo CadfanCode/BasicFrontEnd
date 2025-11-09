@@ -14,30 +14,32 @@ body {
   padding: 15px;
 }
 
+/* HEADER */
 header {
-    display: flex;
-    align-items: center; /* Vertically align to the center, so the icon is inline with the text*/
-    /* Aligns items to the start of the container */
-    justify-content: flex-start;
-    gap: 10px;
-    color: #CAC589;
-    margin-top: 10px;
+  display: flex;
+  align-items: center;  
+  justify-content: flex-start;
+  gap: 10px;
+  color: #CAC589;
+  margin-top: 10px;
 }
 
-header > h1 {
-    margin: 0; 
-    font-size: 1em; 
-    font-weight: bold;
+header h1 {
+  margin: 0;
+  font-size: 1em;
+  font-weight: bold;
 }
 
-header > i {
-    font-size: 3em; 
+header i {
+  font-size: 3em;
 }
 
+/* IMAGE */
 .image-section img {
   width: 100%;
 }
 
+/* LIST */
 .unordered-list {
   display: flex;
   color: #CAC589;
@@ -45,73 +47,73 @@ header > i {
   justify-content: flex-start;
 }
 
+/* VIDEO */
 .video-section {
   width: 100%;
 }
 
-.video-section > h2 {
+.video-section h2 {
   background-color: #C55637;
   padding: 3px;
-  width: 100%;
   font-size: small;
   text-align: left;
   color: #CAC589;
-  margin-bottom: 0.25px; /* This is to override the default margin for h2, so there is only a 1px gap between the the text padding and iframe.*/
-}
+  margin-bottom: 1px; 
 
+/* FORM */
 form {
-    display: flex;
-    flex-direction: column;
-    width: 100%; 
-    color: #CAC589;
-    margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  color: #CAC589;
+  margin: 10px 0;
 }
 
-form > label {
-    margin-top: 5px;
+form label {
+  margin-top: 5px;
 }
 
-form input:not(#destinationField),
+form input,
 form select {
-    margin-top: 5px;
-    padding: 5px;
-    border: none;
+  margin-top: 5px;
+  padding: 5px;
+  border: none;
 }
 
-form > button {
-    background-color: #A6A86F;
-    color: #97351C;
-    font-weight: bold;
-    margin-top: 10px;
-    cursor: pointer;
-    padding: 5px;
-    border: none;
-    width: 100%; 
+#destinationField {
+  width: 50%;
+  margin-left: 0;
+  margin-right: auto;
 }
 
-form > p {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    margin-top: 10px;
+#returnBox {
+  margin-left: 0;
+  margin-right: auto;
 }
 
-form > a {
-    color: #CAC589;
-    text-decoration: none;
+form button {
+  background-color: #A6A86F;
+  color: #97351C;
+  font-weight: bold;
+  margin-top: 10px;
+  padding: 5px;
+  border: none;
+  width: 100%;
+  cursor: pointer;
 }
 
-form > a:hover {
-    text-decoration: underline;
+form p {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 10px;
 }
 
-form > #destinationField {
-    width: 50%;
-    margin-right: auto; /* Pushes the element to the left */
-    margin-left: 0;
+form a {
+  color: #CAC589;
+  text-decoration: none;
 }
 
-form > #returnBox {
-    margin-right: auto; 
-    margin-left: 0;
+form a:hover {
+  text-decoration: underline;
 }
