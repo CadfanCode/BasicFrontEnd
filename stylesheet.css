@@ -33,6 +33,7 @@ header {
 .unordered-list {
   color: #CAC589;
   text-align: left;
+  justify-content: left;
   padding-left: 30px;
   margin: 10px 0;
 }
