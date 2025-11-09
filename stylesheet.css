@@ -17,7 +17,7 @@ body {
 
 header {
     display: flex;
-    align-items: center; /* Vertically align to the center, so the icon is inline with the text*/
+    align-items: left; /* Vertically align to the center, so the icon is inline with the text*/
     /* Aligns items to the start of the container */
     justify-content: flex-start;
     gap: 10px;
@@ -28,7 +28,7 @@ header {
 header > h1 {
     margin: 0; 
     font-size: 1em; 
-    font-weight: normal; 
+    font-weight: bold;
 }
 
 header > i {
