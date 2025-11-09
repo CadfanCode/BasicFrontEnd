@@ -57,6 +57,21 @@ header > i {
   margin-bottom: 0.25px; /* This is to override the default margin for h2, so there is only a 1px gap between the the text padding and iframe.*/
 }
 
+.video-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 form {
     display: flex;
     flex-direction: column;
