@@ -55,6 +55,7 @@ header > i {
   font-size: small;
   text-align: left;
   color: #CAC589;
+  border: 2px;
 }
 
 form {
