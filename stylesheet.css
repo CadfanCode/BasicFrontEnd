@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #ffffff;
+  background-color: #97351C;
 }
 
 .main-container {
@@ -11,13 +11,13 @@ body {
   background-color: #97351C;
   border: 3px solid #C55637;
   max-width: 400px;
-  margin: 5px;
+  margin: 20px;
 }
 
 header {
   display: flex;
-  align-items: left;
-  justify-content: left;
+  align-items: flex-start;
+  justify-content: flex-start;
   gap: 10px;
   color: #CAC589;
   font-size: 1.5em;
